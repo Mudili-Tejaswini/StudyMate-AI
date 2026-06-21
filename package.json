@@ -2,9 +2,10 @@
   "name": "studymate-ai",
   "version": "1.0.0",
   "description": "",
-  "main": "scrpit.js",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo \"Error\""
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,6 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1",
-    "nodemon": "^3.1.14"
+    "serve": "^14.2.6"
   }
 }
